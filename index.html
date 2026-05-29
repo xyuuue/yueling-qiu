@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Yueling Qiu is an Applied Data Analytics graduate student and data analyst candidate building analytics workflows and user-focused productivity apps."
+    >
+    <title>Yueling Qiu | Data Analyst Portfolio</title>
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=20260528-project-detail-images">
+  </head>
+  <body>
+    <canvas class="splash-cursor-canvas" data-splash-cursor aria-hidden="true"></canvas>
+    <div class="aurora-backdrop" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Yueling Qiu home">
+        <span class="brand-chart" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </span>
+        <span>Yueling Qiu</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span class="sr-only">Toggle navigation</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-site-nav>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#apps" data-i18n="nav.apps">Apps</a>
+        <a href="#skills" data-i18n="nav.skills">Skills</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
+        <a href="#education" data-i18n="nav.education">Education</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <div class="language-switch" aria-label="Language switch">
+          <button class="is-active" type="button" data-language="en">EN</button>
+          <button type="button" data-language="zh">中文</button>
+        </div>
+        <a class="resume-link" href="assets/Yueling_Qiu_Resume.pdf" target="_blank" rel="noreferrer" data-i18n="nav.resume">Download Resume</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero-panel section-shell" data-tilt-panel>
+        <div class="hero-copy">
+          <p class="hello-line" data-i18n="hero.hello">Hello, I'm</p>
+          <h1>Yueling Qiu</h1>
+          <p class="title-line" data-i18n="hero.title">Master's student in Applied Data Analytics | Data Analyst Candidate</p>
+          <p class="hero-summary" data-i18n="hero.summary">
+            Turning data into clear insights and business value with analytics, machine learning, app building,
+            and bilingual communication.
+          </p>
+
+          <ul class="skill-pills" aria-label="Core capabilities">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Machine Learning</li>
+            <li>Data Visualization</li>
+            <li>Bilingual Communication</li>
+          </ul>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects" data-i18n="hero.viewProjects">View Projects</a>
+            <a class="button button-secondary" href="assets/Yueling_Qiu_Resume.pdf" target="_blank" rel="noreferrer" data-i18n="hero.downloadResume">Download Resume</a>
+            <a class="button button-secondary" href="mailto:lindaqiuyueling@gmail.com" data-i18n="hero.contactMe">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-media" aria-label="Interactive profile and analytics preview">
+          <div class="profile-card">
+            <img src="assets/yueling-profile.png?v=20260528-avatar-smaller" alt="Portrait of Yueling Qiu">
+            <div>
+              <strong>Data + Product</strong>
+              <span data-i18n="profile.summary">Analytics workflows and practical apps</span>
+            </div>
+          </div>
+
+          <div class="laptop-dashboard capability-dashboard" aria-hidden="true">
+            <div class="dashboard-top">
+              <span data-i18n="dashboard.title">Capability Overview</span>
+              <span>YQ Analytics</span>
+            </div>
+            <div class="metric-strip">
+              <div class="metric-item">
+                <em>01</em>
+                <strong data-i18n="dashboard.data">Data Analysis</strong>
+                <span data-i18n="dashboard.dataTools">Python · SQL · R</span>
+              </div>
+              <div class="metric-item">
+                <em>02</em>
+                <strong data-i18n="dashboard.ml">ML Modeling</strong>
+                <span data-i18n="dashboard.mlTools">Classify · Evaluate</span>
+              </div>
+              <div class="metric-item">
+                <em>03</em>
+                <strong data-i18n="dashboard.reporting">BI &amp; Reporting</strong>
+                <span data-i18n="dashboard.reportingTools">Tableau · Dashboards</span>
+              </div>
+              <div class="metric-item">
+                <em>04</em>
+                <strong data-i18n="dashboard.communication">Data Comm</strong>
+                <span data-i18n="dashboard.communicationTools">EN · 中文 · Docs</span>
+              </div>
+            </div>
+            <div class="chart-grid capability-grid">
+              <div class="dashboard-panel workflow-chart">
+                <strong data-i18n="dashboard.workflow">Analytics Workflow</strong>
+                <ol>
+                  <li data-i18n="dashboard.clean">Clean</li>
+                  <li data-i18n="dashboard.explore">Explore</li>
+                  <li data-i18n="dashboard.model">Model</li>
+                  <li data-i18n="dashboard.evaluate">Evaluate</li>
+                  <li data-i18n="dashboard.communicate">Report</li>
+                </ol>
+              </div>
+              <div class="dashboard-panel role-fit">
+                <strong data-i18n="dashboard.roleFit">Role Fit</strong>
+                <div><span data-i18n="dashboard.roleDataAnalyst">Data Analyst</span><i style="--fit: 92%"></i></div>
+                <div><span data-i18n="dashboard.roleBusiness">Business Analyst</span><i style="--fit: 88%"></i></div>
+                <div><span data-i18n="dashboard.roleAssociate">Analytics Associate</span><i style="--fit: 78%"></i></div>
+              </div>
+              <div class="dashboard-panel tool-coverage">
+                <strong data-i18n="dashboard.toolCoverage">Tool Coverage</strong>
+                <div>
+                  <span data-i18n="dashboard.toolProgramming">Code</span>
+                  <span data-i18n="dashboard.toolSql">SQL</span>
+                  <span data-i18n="dashboard.toolViz">Viz</span>
+                  <span data-i18n="dashboard.toolML">ML</span>
+                  <span data-i18n="dashboard.toolReporting">Reports</span>
+                  <span data-i18n="dashboard.toolProduct">Product</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="trait-rail" aria-label="Portfolio strengths">
+          <button class="trait-card is-active" type="button" data-trait-key="trait.dataStatus">
+            <span>01</span>
+            <strong data-i18n="trait.dataTitle">Data Driven</strong>
+            <em data-i18n="trait.dataBody">Find patterns and solve real problems.</em>
+          </button>
+          <button class="trait-card" type="button" data-trait-key="trait.insightStatus">
+            <span>02</span>
+            <strong data-i18n="trait.insightTitle">Insight Focused</strong>
+            <em data-i18n="trait.insightBody">Transform data into actionable insights.</em>
+          </button>
+          <button class="trait-card" type="button" data-trait-key="trait.businessStatus">
+            <span>03</span>
+            <strong data-i18n="trait.businessTitle">Business Minded</strong>
+            <em data-i18n="trait.businessBody">Communicate clearly and create impact.</em>
+          </button>
+          <p class="trait-status" data-trait-status data-i18n="trait.dataStatus">Patterns and model evidence guide my decisions.</p>
+        </aside>
+      </section>
+
+      <section class="landscape-board section-shell" id="about">
+        <article class="about-card">
+          <div class="section-icon">A</div>
+          <div>
+            <p class="section-kicker" data-i18n="about.kicker">About Me</p>
+            <h2 data-i18n="about.heading">Analytical training with practical product execution.</h2>
+            <p data-i18n="about.body">
+              I am a Master's student in Applied Data Analytics at Boston University. With a mathematics background
+              from UC Davis and hands-on analytics training, I enjoy turning complex data into meaningful insights
+              that support data-driven decisions. My internship experience strengthened my ability to translate
+              technical content into clear business communication and support cross-functional collaboration.
+            </p>
+            <div class="about-meta">
+              <span>Boston University</span>
+              <span>Applied Data Analytics</span>
+              <span data-i18n="about.languages">Mandarin + English</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="mini-profile-card">
+          <p class="section-kicker" data-i18n="about.interests">Career Interests</p>
+          <ul>
+            <li data-i18n="about.role1">Data Analyst</li>
+            <li data-i18n="about.role2">Business Data Analyst</li>
+            <li data-i18n="about.role3">Analytics Associate</li>
+          </ul>
+          <p class="section-kicker" data-i18n="about.strengths">Strengths</p>
+          <p data-i18n="about.strengthBody">Analytical thinking, data communication, bilingual communication, collaboration, and problem solving.</p>
+        </article>
+      </section>
+
+      <section class="projects-section section-shell" id="projects">
+        <div class="section-heading-row">
+          <div>
+            <p class="section-kicker" data-i18n="projects.kicker">Featured Projects</p>
+            <h2 data-i18n="projects.heading">Selected analytics projects spanning machine learning, database design, and decision-ready reporting.</h2>
+          </div>
+          <a class="text-link" href="#apps" data-i18n="projects.viewApps">View app projects</a>
+        </div>
+
+        <div class="project-workspace">
+          <div class="project-cards" aria-label="Project selector">
+            <button class="project-card is-active" type="button" data-project="housing">
+              <span class="project-number">1</span>
+              <img class="project-image" src="assets/project-housing-thumb.png?v=20260528-project-user-images" alt="Housing analytics thumbnail with residential buildings and blue data network visuals">
+              <strong data-i18n="projectCard.housingTitle">American Housing Survey Classification Analysis</strong>
+              <p data-i18n="projectCard.housingBody">Evaluated 36 machine learning pipeline combinations for minority-class prediction reliability.</p>
+            </button>
+            <button class="project-card" type="button" data-project="database">
+              <span class="project-number">2</span>
+              <img class="project-image" src="assets/project-database-thumb.png?v=20260528-project-user-images" alt="Study tracker database thumbnail with sleep, wellness, and learning icons">
+              <strong data-i18n="projectCard.databaseTitle">Stress, Sleep, and Study Tracker Database Project</strong>
+              <p data-i18n="projectCard.databaseBody">Designed a normalized Oracle relational database for personal performance analysis.</p>
+            </button>
+            <button class="project-card" type="button" data-project="stock">
+              <span class="project-number">3</span>
+              <img class="project-image" src="assets/project-stock-thumb.png?v=20260528-project-user-images" alt="Stock prediction analytics thumbnail with candlesticks, globe, and upward trend arrow">
+              <strong data-i18n="projectCard.stockTitle">Quantitative Stock Prediction &amp; Strategy Optimization</strong>
+              <p data-i18n="projectCard.stockBody">Engineered predictive features from five years of QCOM market data.</p>
+            </button>
+            <button class="project-card" type="button" data-project="recipe">
+              <span class="project-number">4</span>
+              <img class="project-image" src="assets/project-recipe-thumb.png?v=20260528-project-user-images" alt="Recipe review analytics thumbnail with pancakes, berries, and rating-inspired data visuals">
+              <strong data-i18n="projectCard.recipeTitle">Recipe Review Rating Classification</strong>
+              <p data-i18n="projectCard.recipeBody">Analyzed 18,182 recipe reviews and compared five ML models for high-rating prediction.</p>
+            </button>
+          </div>
+
+          <article class="project-detail project-detail-page project-board-shell" data-project-detail data-project-theme="housing">
+            <div class="project-board-heading">
+              <div class="detail-topline">
+                <span data-project-type>Machine Learning</span>
+                <span data-project-date>Feb 2026 - May 2026</span>
+              </div>
+              <h3 data-project-title>American Housing Survey Classification Analysis</h3>
+              <p class="project-detail-summary" data-project-problem>
+                Predict disability status in a large-scale housing survey dataset while improving minority-class reliability.
+              </p>
+              <ul class="tag-list" data-project-tags>
+                <li>Python</li>
+                <li>scikit-learn</li>
+                <li>Imbalanced Data</li>
+                <li>36 Pipelines</li>
+              </ul>
+            </div>
+
+            <div class="interactive-project-board" data-project-board aria-label="Project detail dashboard">
+              <section class="project-board-hero">
+                <div class="project-board-copy">
+                  <div class="project-board-icon" data-project-icon>ML</div>
+                  <div>
+                    <span data-project-board-kicker>Project Dashboard</span>
+                    <h4 data-project-board-title>Classification Evidence Board</h4>
+                    <p data-project-caption>Dashboard-style overview of the dataset, model pipeline, balancing approach, and evaluation evidence.</p>
+                  </div>
+                </div>
+
+                <div class="project-visual-scene">
+                  <div class="project-scene scene-housing">
+                    <img
+                      class="project-scene-image"
+                      src="assets/project-detail-housing.png?v=20260528-project-detail-images"
+                      alt="Housing analytics visualization with residential buildings, survey checklist, classification charts, and model evidence"
+                    >
+                  </div>
+
+                  <div class="project-scene scene-database">
+                    <img
+                      class="project-scene-image"
+                      src="assets/project-detail-database.png?v=20260528-project-detail-images"
+                      alt="Wellness database visualization with sleep, stress, study analytics, connected data stores, and dashboard elements"
+                    >
+                  </div>
+
+                  <div class="project-scene scene-stock">
+                    <img
+                      class="project-scene-image"
+                      src="assets/project-detail-stock.png?v=20260528-project-detail-images"
+                      alt="Stock prediction visualization with candlestick chart, trend signal, model dashboard, and analytics visuals"
+                    >
+                  </div>
+
+                  <div class="project-scene scene-recipe">
+                    <img
+                      class="project-scene-image"
+                      src="assets/project-detail-recipe.png?v=20260528-project-detail-images"
+                      alt="Recipe review classification visualization with food ratings, review cards, and feature distribution charts"
+                    >
+                  </div>
+                </div>
+              </section>
+
+              <div class="project-detail-metrics" data-project-metrics aria-label="Project key facts">
+                <div><strong>36</strong><span>Pipeline combinations</span></div>
+                <div><strong>4</strong><span>Balancing methods</span></div>
+                <div><strong>9</strong><span>Classifiers</span></div>
+              </div>
+
+              <div class="project-detail-grid">
+                <section class="detail-card">
+                  <h4 data-i18n="projectDetail.problem">Problem</h4>
+                  <p data-project-problem-detail>Predict housing survey outcomes with stronger reliability for the minority class.</p>
+                </section>
+                <section class="detail-card">
+                  <h4 data-i18n="projectDetail.methods">Methods</h4>
+                  <p data-project-methods>36 pipeline combinations across four balancing methods and nine classifiers.</p>
+                </section>
+                <section class="detail-card">
+                  <h4 data-i18n="projectDetail.evaluation">Evaluation</h4>
+                  <p data-project-evaluation>Recall, TPR, precision, F1-score, and confusion-matrix analysis.</p>
+                </section>
+                <section class="detail-card">
+                  <h4 data-i18n="projectDetail.value">Value</h4>
+                  <p data-project-value>Improved minority-class prediction reliability with transparent model comparison evidence.</p>
+                </section>
+              </div>
+
+              <div class="project-board-lower">
+                <section class="detail-section workflow-panel">
+                  <h4 data-i18n="projectDetail.workflow">Workflow</h4>
+                  <ol class="project-steps" data-project-workflow>
+                    <li>Cleaned survey data and prepared model-ready features.</li>
+                    <li>Compared balancing methods and classifier families.</li>
+                    <li>Evaluated minority-class reliability with classification metrics.</li>
+                  </ol>
+                </section>
+
+                <section class="detail-section insight-panel">
+                  <h4 data-i18n="projectDetail.demonstrates">What it demonstrates</h4>
+                  <ul class="project-outcomes" data-project-outcomes>
+                    <li>Structured model experimentation.</li>
+                    <li>Careful evaluation beyond headline accuracy.</li>
+                    <li>Clear communication of modeling tradeoffs.</li>
+                  </ul>
+                </section>
+
+                <section class="detail-section project-signal-panel">
+                  <h4 data-project-visual-title>Evidence Map</h4>
+                  <div class="signal-map" data-project-signals>
+                    <span>Dataset</span>
+                    <span>Pipeline</span>
+                    <span>Evaluation</span>
+                    <span>Model Comparison</span>
+                  </div>
+                  <div class="mini-bar-chart" data-project-chart aria-label="Project emphasis chart">
+                    <span style="--bar: 58%"></span>
+                    <span style="--bar: 72%"></span>
+                    <span style="--bar: 86%"></span>
+                    <span style="--bar: 68%"></span>
+                    <span style="--bar: 94%"></span>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="apps-section section-shell" id="apps">
+        <div class="section-heading-row">
+          <div>
+            <p class="section-kicker" data-i18n="apps.kicker">Product / App Projects</p>
+            <h2 data-i18n="apps.heading">Personal apps showing product execution, local app workflows, and data-informed product thinking.</h2>
+          </div>
+          <div class="segmented-control" role="tablist" aria-label="App project selector">
+            <button class="is-active" type="button" role="tab" aria-selected="true" data-app="slacker">SlackerBuddy</button>
+            <button type="button" role="tab" aria-selected="false" data-app="pastepaw">PastePaw</button>
+            <button type="button" role="tab" aria-selected="false" data-app="studysprout">StudySprout</button>
+          </div>
+        </div>
+
+        <article class="app-showcase">
+          <div class="app-preview" data-app-preview>
+            <img class="showcase-icon" src="assets/slackerbuddy-app-icon.png" alt="SlackerBuddy app icon" data-app-icon>
+            <img class="showcase-pet" src="assets/fufu-slackerbuddy-blink.webp?v=20260528-fufu-position" alt="FuFu blinking companion pose" data-app-secondary>
+            <div class="app-window">
+              <div class="app-window-header">
+                <strong data-app-preview-title>Wellness Companion</strong>
+                <span data-app-preview-status>FuFu is on duty</span>
+              </div>
+              <ul class="app-window-list" data-app-preview-items>
+                <li>
+                  <strong>Rest reminder</strong>
+                  <span>Gentle breaks during focused work.</span>
+                </li>
+                <li>
+                  <strong>Hydration check</strong>
+                  <span>Water reminders without breaking flow.</span>
+                </li>
+                <li>
+                  <strong>PetDex collection</strong>
+                  <span>A small companion layer for motivation.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="app-copy">
+            <p class="section-kicker" data-app-stack>SwiftUI + AppKit + Electron</p>
+            <h3 data-app-title>SlackerBuddy</h3>
+            <p class="app-positioning" data-app-positioning>
+              A desktop companion app that helps users rest, hydrate, and feel less alone while working.
+            </p>
+            <ul class="app-bullets" data-app-bullets>
+              <li>Desktop pet animations with rest and water reminders.</li>
+              <li>PetDex support, bilingual settings, and downloadable builds.</li>
+              <li>Demonstrates product execution, cross-platform packaging, and user-centered design.</li>
+            </ul>
+            <a class="text-link" href="https://slackerbuddy.vercel.app" target="_blank" rel="noreferrer" data-app-link>
+              Visit SlackerBuddy website
+            </a>
+          </div>
+        </article>
+      </section>
+
+      <section class="skills-section section-shell" id="skills">
+        <div class="section-heading-row">
+          <div>
+            <p class="section-kicker" data-i18n="skills.kicker">Skills</p>
+            <h2 data-i18n="skills.heading">Click a skill group to see how it supports the portfolio.</h2>
+          </div>
+        </div>
+
+        <article class="toolbox-panel">
+          <div class="toolbox-copy">
+            <p class="section-kicker" data-i18n="toolbox.kicker">Technical Toolbox</p>
+            <h3 data-i18n="toolbox.heading">A fuller view of the skills, methods, and software I use across analytics work.</h3>
+            <p data-i18n="toolbox.body">Hover over the moving rows to slow them down and scan each tool clearly.</p>
+          </div>
+
+          <div class="toolbox-loops" aria-label="Skills and software logo loops">
+            <div class="logoloop logoloop--horizontal logoloop--fade logoloop--scale-hover" data-logo-loop data-speed="58" data-direction="left" data-hover-speed="12" style="--logoloop-logoHeight: 38px; --logoloop-gap: 14px; --logoloop-fadeColor: #ffffff;" role="region" aria-label="Programming, analytics, and software tools">
+              <div class="logoloop__track">
+                <ul class="logoloop__list" role="list">
+                  <li class="logoloop__item"><span class="tool-logo"><b>Py</b><span>Python</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>SQL</b><span>SQL</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>R</b><span>R</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>MAT</b><span>MATLAB</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>TeX</b><span>LaTeX</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>pd</b><span>pandas</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>sk</b><span>scikit-learn</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>Ora</b><span>Oracle SQL</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>Dev</b><span>SQL Developer</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>Tab</b><span>Tableau</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>MS</b><span>Microsoft Office</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>G</b><span>Google Workspace</span></span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="logoloop logoloop--horizontal logoloop--fade logoloop--scale-hover" data-logo-loop data-speed="46" data-direction="right" data-hover-speed="10" style="--logoloop-logoHeight: 38px; --logoloop-gap: 14px; --logoloop-fadeColor: #ffffff;" role="region" aria-label="Machine learning and analysis methods">
+              <div class="logoloop__track">
+                <ul class="logoloop__list" role="list">
+                  <li class="logoloop__item"><span class="tool-logo"><b>LR</b><span>Logistic Regression</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>DT</b><span>Decision Tree</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>RF</b><span>Random Forest</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>KNN</b><span>KNN</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>SVM</b><span>SVM</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>NB</b><span>Naive Bayes</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>LDA</b><span>LDA / QDA</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>GB</b><span>Gradient Boosting</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>CLS</b><span>Classification</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>EV</b><span>Model Evaluation</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>CM</b><span>Confusion Matrix</span></span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="logoloop logoloop--horizontal logoloop--fade logoloop--scale-hover" data-logo-loop data-speed="52" data-direction="left" data-hover-speed="12" style="--logoloop-logoHeight: 38px; --logoloop-gap: 14px; --logoloop-fadeColor: #ffffff;" role="region" aria-label="Reporting, AI, product, and communication skills">
+              <div class="logoloop__track">
+                <ul class="logoloop__list" role="list">
+                  <li class="logoloop__item"><span class="tool-logo"><b>EDA</b><span>Data Cleaning</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>FE</b><span>Feature Engineering</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>Viz</b><span>Data Visualization</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>DB</b><span>Database Queries</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>Dash</b><span>Dashboards</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>Rpt</b><span>Reports</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>Sheet</b><span>Spreadsheets</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>LLM</b><span>LLM Prompting</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>Eval</b><span>LLM Evaluation</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>AI</b><span>Applied AI Workflows</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>Swift</b><span>SwiftUI</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>App</b><span>AppKit</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>El</b><span>Electron</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>中</b><span>Mandarin</span></span></li>
+                  <li class="logoloop__item"><span class="tool-logo"><b>EN</b><span>English</span></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="skills-workspace">
+          <div class="skill-buttons" aria-label="Skill group selector">
+            <button class="is-active" type="button" data-skill="data" data-i18n="skillButton.data">Data Analysis</button>
+            <button type="button" data-skill="ml" data-i18n="skillButton.ml">Machine Learning</button>
+            <button type="button" data-skill="viz" data-i18n="skillButton.viz">Visualization &amp; Reporting</button>
+            <button type="button" data-skill="product" data-i18n="skillButton.product">Product &amp; App</button>
+            <button type="button" data-skill="communication" data-i18n="skillButton.communication">Communication</button>
+          </div>
+          <article class="skill-detail" data-skill-detail>
+            <h3 data-skill-title>Data Analysis</h3>
+            <p data-skill-description>
+              Data cleaning, feature engineering, EDA, dashboards, reports, spreadsheets, and SQL queries.
+            </p>
+            <div class="skill-meter" aria-hidden="true"><span data-skill-meter></span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="bottom-grid section-shell">
+        <article class="experience-card" id="experience">
+          <div class="section-icon">E</div>
+          <p class="section-kicker" data-i18n="experience.kicker">Experience</p>
+          <h2 data-i18n="experience.title">Technical Translator &amp; Project Support Intern</h2>
+          <p class="company" data-i18n="experience.company">Shenzhen Aival Data Technology Co. Ltd. | Jul 2024 - Aug 2024</p>
+          <ul>
+            <li data-i18n="experience.b1">Translated and standardized technical documentation and UI content for a big data platform.</li>
+            <li data-i18n="experience.b2">Supported cross-functional coordination across project stakeholders and technical-material delivery under deadline.</li>
+            <li data-i18n="experience.b3">Created a client-facing presentation on AI-driven productivity solutions.</li>
+          </ul>
+        </article>
+
+        <article class="education-card" id="education">
+          <div class="section-icon">Ed</div>
+          <p class="section-kicker" data-i18n="education.kicker">Education &amp; Certifications</p>
+          <a class="education-row education-link" href="https://www.bu.edu/met/degrees-certificates/ms-applied-data-analytics/" target="_blank" rel="noreferrer" aria-label="Open Boston University Applied Data Analytics program page">
+            <span class="school-logo bu">BU</span>
+            <div>
+              <strong>Boston University</strong>
+              <p data-i18n="education.bu">Master of Applied Data Analytics | Sep 2025 - Present</p>
+            </div>
+          </a>
+          <a class="education-row education-link" href="https://catalog.ucdavis.edu/departments-programs-degrees/mathematics/mathematics-bs/" target="_blank" rel="noreferrer" aria-label="Open UC Davis Mathematics Bachelor of Science catalog page">
+            <span class="school-logo uc">UC</span>
+            <div>
+              <strong>UC Davis</strong>
+              <p data-i18n="education.uc">Bachelor of Mathematics | Sep 2021 - Jun 2025</p>
+            </div>
+          </a>
+          <a class="education-row education-link" href="https://coursera.org/share/6fe5a11476b0cfd4341f6b0bfc2b27db" target="_blank" rel="noreferrer" aria-label="Open Google Data Analytics Certificate credential page">
+            <span class="school-logo google">G</span>
+            <div>
+              <strong data-i18n="education.googleDataTitle">Google Data Analytics Certificate</strong>
+              <p data-i18n="education.googleData">Grow with Google career certificate</p>
+            </div>
+          </a>
+          <a class="education-row education-link" href="https://coursera.org/share/5c645ac8521620add32eb828d25794a4" target="_blank" rel="noreferrer" aria-label="Open Google AI Essentials Certificate credential page">
+            <span class="school-logo google">G</span>
+            <div>
+              <strong data-i18n="education.googleAiTitle">Google AI Essentials Certificate</strong>
+              <p data-i18n="education.googleAi">Grow with Google AI essentials course</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="contact-card" id="contact">
+          <div>
+            <p class="section-kicker" data-i18n="contact.kicker">Let's Connect</p>
+            <h2 data-i18n="contact.heading">Open to data analyst opportunities.</h2>
+            <p data-i18n="contact.body">I would love to connect and explore how I can contribute to your team.</p>
+          </div>
+          <div class="contact-list">
+            <a href="mailto:lindaqiuyueling@gmail.com">lindaqiuyueling@gmail.com</a>
+            <a href="https://www.linkedin.com/in/yueling-qiu" target="_blank" rel="noreferrer">linkedin.com/in/yueling-qiu</a>
+            <a class="button button-primary" href="assets/Yueling_Qiu_Resume.pdf" target="_blank" rel="noreferrer" data-i18n="contact.resume">Download Resume</a>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Yueling Qiu | Data Analyst Portfolio</p>
+      <a href="#top" data-i18n="footer.backTop">Back to top</a>
+    </footer>
+
+    <script src="splash-cursor.js?v=20260528-project-detail-images"></script>
+    <script src="script.js?v=20260528-project-detail-images"></script>
+  </body>
+</html>

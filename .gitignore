@@ -1,0 +1,21 @@
+.vercel
+.DS_Store
+
+# Local backups and design references
+Website 1/
+Website 2/
+1.png
+2.png
+
+# Unused local asset variants kept for editing history
+assets/fufu-pastepaw.png
+assets/fufu-slackerbuddy.png
+assets/fufu-studysprout.png
+assets/pastepaw-toolbar-icon.png
+assets/project-database.png
+assets/project-housing.png
+assets/project-recipe.png
+assets/project-stock.png
+assets/project-detail-*-redesign.png
+assets/slackerbuddy-fufu.png
+assets/yueling-profile-v2.png
