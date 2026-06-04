@@ -1152,6 +1152,7 @@ h3 {
   font-weight: 760;
 }
 
+.experience-section,
 .projects-section,
 .apps-section,
 .skills-section,
@@ -2723,7 +2724,7 @@ h3 {
 
 .bottom-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(340px, 0.95fr) minmax(320px, 0.75fr);
+  grid-template-columns: minmax(340px, 1fr) minmax(320px, 0.78fr);
   gap: 20px;
   padding-bottom: 34px;
 }
