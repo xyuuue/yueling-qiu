@@ -113,6 +113,8 @@ const translations = {
     "contact.kicker": "Let's Connect",
     "contact.heading": "Open to data analyst opportunities.",
     "contact.body": "I would love to connect and explore how I can contribute to your team.",
+    "contact.githubTitle": "GitHub Profile",
+    "contact.githubBody": "Explore my code, project repos, and app-building work.",
     "contact.resume": "Download Resume",
     "footer.backTop": "Back to top"
   },
@@ -222,6 +224,8 @@ const translations = {
     "contact.kicker": "联系我",
     "contact.heading": "正在寻找数据分析相关机会。",
     "contact.body": "我希望与团队交流，探索我可以贡献的方向。",
+    "contact.githubTitle": "GitHub 主页",
+    "contact.githubBody": "查看我的代码、项目仓库和应用开发作品。",
     "contact.resume": "下载简历",
     "footer.backTop": "回到顶部"
   }
@@ -342,7 +346,7 @@ if (location.hash) {
 }
 
 const glowTargets = document.querySelectorAll(
-  ".button, .project-card, .trait-card, .about-card, .mini-profile-card, .app-showcase, .toolbox-panel, .skill-detail, .experience-card, .education-card, .contact-card"
+  ".button, .project-card, .trait-card, .about-card, .mini-profile-card, .app-showcase, .toolbox-panel, .skill-detail, .experience-card, .education-card, .contact-card, .github-callout"
 );
 
 glowTargets.forEach((target) => {
