@@ -498,6 +498,24 @@ h1 {
   box-shadow: 0 10px 26px rgba(15, 23, 42, 0.04);
 }
 
+.hero-social-button {
+  gap: 9px;
+}
+
+.hero-social-mark {
+  display: inline-grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
+  border-radius: 6px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
 .button-primary:hover,
 .button-primary:focus-visible {
   box-shadow: var(--shadow-accent);
