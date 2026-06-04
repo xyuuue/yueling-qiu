@@ -72,11 +72,11 @@ const translations = {
     "projects.heading": "Selected analytics projects spanning machine learning, database design, and decision-ready reporting.",
     "projects.viewApps": "View app projects",
     "projectCard.housingTitle": "American Housing Survey Classification Analysis",
-    "projectCard.housingBody": "Evaluated 36 machine learning pipeline combinations for minority-class prediction reliability.",
+    "projectCard.housingBody": "Analyzed 10K housing survey rows and benchmarked 36 pipelines for class-imbalance prediction.",
     "projectCard.databaseTitle": "Stress, Sleep, and Study Tracker Database Project",
     "projectCard.databaseBody": "Designed a normalized Oracle relational database for personal performance analysis.",
     "projectCard.recipeTitle": "Recipe Review Rating Classification",
-    "projectCard.recipeBody": "Analyzed 18,182 recipe reviews and compared five ML models for high-rating prediction.",
+    "projectCard.recipeBody": "Applied NLP and sentiment features to 18K+ reviews and compared five rating-prediction models.",
     "projectCard.stockTitle": "Quantitative Stock Prediction & Strategy Optimization",
     "projectCard.stockBody": "Engineered predictive features from five years of QCOM market data.",
     "projectDetail.methods": "Methods",
@@ -98,11 +98,24 @@ const translations = {
     "skillButton.product": "Product & App",
     "skillButton.communication": "Communication",
     "experience.kicker": "Experience",
-    "experience.title": "Technical Translator & Project Support Intern",
-    "experience.company": "Shenzhen Aival Data Technology Co. Ltd. | Jul 2024 - Aug 2024",
-    "experience.b1": "Translated and standardized technical documentation and UI content for a big data platform.",
-    "experience.b2": "Supported cross-functional coordination across project stakeholders and technical-material delivery under deadline.",
-    "experience.b3": "Created a client-facing presentation on AI-driven productivity solutions.",
+    "experience.heading": "Data analytics internship experience.",
+    "experience.nexttier.title": "Data Analyst Intern",
+    "experience.nexttier.company": "NextTier, Sacramento, CA | Jan - May 2026",
+    "experience.nexttier.b1": "Drove customer segmentation across 10K+ users using RFM features to identify high-value cohorts, informing targeted retention and lifecycle marketing strategies.",
+    "experience.nexttier.b2": "Developed and optimized XGBoost predictive models to classify loyalty segments, achieving 89% accuracy and high precision on top-value users.",
+    "experience.nexttier.b3": "Owned end-to-end A/B experimentation on personalization strategies, delivering an 18% lift in conversion and informing product and growth roadmap decisions.",
+    "experience.nexttier.b4": "Built scalable Tableau dashboards and automated data pipelines, enabling self-serve analytics for cross-functional product and marketing teams.",
+    "experience.vortex.title": "Data Analyst Intern",
+    "experience.vortex.company": "VortexNet, Covina, CA | Jun - Aug 2025",
+    "experience.vortex.b1": "Designed and executed an A/B test on 588K records using two-proportion z-tests, identifying a 43% lift in conversion rate from ad exposure.",
+    "experience.vortex.b2": "Built and evaluated Logistic Regression and XGBoost models to predict conversions under 2.5% class imbalance, achieving 0.76 ROC-AUC.",
+    "experience.vortex.b3": "Developed an interactive Tableau dashboard with dynamic filters visualizing conversion by day, hour, and ad exposure, cutting stakeholder reporting time by 60%.",
+    "experience.vortex.b4": "Translated insights into ad-targeting recommendations on optimal timing and frequency, projected to improve campaign ROI by about 15%.",
+    "experience.aival.title": "Technical Documentation & Project Support Intern",
+    "experience.aival.company": "Shenzhen Aival Data Technology Co. Ltd., Shenzhen, CN | Jul 2024 - Aug 2024",
+    "experience.aival.b1": "Partnered with product and engineering teams to refine documentation and interface content for a big data platform, improving clarity and usability for 100+ international users.",
+    "experience.aival.b2": "Synthesized 20+ technical and business documents into structured, stakeholder-ready deliverables aligned across product, engineering, and client requirements.",
+    "experience.aival.b3": "Developed client-facing AI solution presentations that translated model capabilities into business value propositions for 5+ client discussions.",
     "education.kicker": "Education & Certifications",
     "education.bu": "Master of Applied Data Analytics | Sep 2025 - Present",
     "education.uc": "Bachelor of Mathematics | Sep 2021 - Jun 2025",
@@ -185,11 +198,11 @@ const translations = {
     "projects.heading": "覆盖机器学习、数据库设计和决策报告的数据分析项目。",
     "projects.viewApps": "查看应用项目",
     "projectCard.housingTitle": "American Housing Survey 分类分析",
-    "projectCard.housingBody": "评估 36 种机器学习流程组合，提高 minority-class 预测可靠性。",
+    "projectCard.housingBody": "分析 10K 行住房调查数据，并比较 36 种流程来处理类别不平衡预测。",
     "projectCard.databaseTitle": "Stress, Sleep, and Study Tracker 数据库项目",
     "projectCard.databaseBody": "设计规范化 Oracle 关系型数据库，用于个人表现分析。",
     "projectCard.recipeTitle": "Recipe Review 评分分类",
-    "projectCard.recipeBody": "分析 18,182 条 recipe reviews，并比较 5 个机器学习模型。",
+    "projectCard.recipeBody": "对 18K+ 条评论应用 NLP 与情感特征，并比较 5 个评分预测模型。",
     "projectCard.stockTitle": "量化股票预测与策略优化",
     "projectCard.stockBody": "基于 5 年 QCOM 市场数据构建预测特征。",
     "projectDetail.methods": "方法",
@@ -211,11 +224,24 @@ const translations = {
     "skillButton.product": "产品与应用",
     "skillButton.communication": "沟通能力",
     "experience.kicker": "经历",
-    "experience.title": "技术翻译 / 项目支持实习生",
-    "experience.company": "Shenzhen Aival Data Technology Co. Ltd. | 2024 年 7 月 - 2024 年 8 月",
-    "experience.b1": "为大数据平台翻译并标准化技术文档和 UI 内容。",
-    "experience.b2": "支持项目相关方之间的跨职能协调，并在截止日期前交付技术材料。",
-    "experience.b3": "制作面向客户的 AI 驱动生产力解决方案演示。",
+    "experience.heading": "数据分析相关实习经历。",
+    "experience.nexttier.title": "数据分析实习生",
+    "experience.nexttier.company": "NextTier, Sacramento, CA | 2026 年 1 月 - 2026 年 5 月",
+    "experience.nexttier.b1": "基于 RFM 特征对 10K+ 用户进行客户分群，识别高价值客群，并支持留存和生命周期营销策略。",
+    "experience.nexttier.b2": "开发并优化 XGBoost 预测模型，对 loyalty segments 进行分类，达到 89% accuracy，并提升高价值用户识别精度。",
+    "experience.nexttier.b3": "负责 personalization strategies 的端到端 A/B 实验，带来 18% conversion lift，并支持产品和增长路线图决策。",
+    "experience.nexttier.b4": "搭建可扩展 Tableau 仪表盘和自动化数据 pipeline，支持产品与营销团队更快进行自助分析。",
+    "experience.vortex.title": "数据分析实习生",
+    "experience.vortex.company": "VortexNet, Covina, CA | 2025 年 6 月 - 2025 年 8 月",
+    "experience.vortex.b1": "基于 588K 条记录设计并执行 A/B test，使用 two-proportion z-test 识别广告曝光带来的 43% conversion rate lift。",
+    "experience.vortex.b2": "构建并评估 Logistic Regression 与 XGBoost 模型，在 2.5% 类别不平衡条件下预测转化，并达到 0.76 ROC-AUC。",
+    "experience.vortex.b3": "开发带动态筛选器的 Tableau 仪表盘，展示按日期、小时和广告曝光划分的转化表现，将报告时间减少 60%。",
+    "experience.vortex.b4": "将分析洞察转化为广告投放时机和频率建议，预计提升 campaign ROI 约 15%。",
+    "experience.aival.title": "技术文档与项目支持实习生",
+    "experience.aival.company": "Shenzhen Aival Data Technology Co. Ltd., Shenzhen, CN | 2024 年 7 月 - 2024 年 8 月",
+    "experience.aival.b1": "与产品和工程团队合作优化大数据平台文档与界面内容，提升 100+ 国际用户的理解度和可用性。",
+    "experience.aival.b2": "整合 20+ 份技术和业务文档，形成结构清晰、面向 stakeholders 的交付材料，并对齐产品、工程和客户需求。",
+    "experience.aival.b3": "制作面向客户的 AI 解决方案演示，将模型能力转化为清晰业务价值，支持 5+ 次客户沟通。",
     "education.kicker": "教育与证书",
     "education.bu": "应用数据分析硕士 | 2025 年 9 月至今",
     "education.uc": "数学学士 | 2021 年 9 月 - 2025 年 6 月",
@@ -438,30 +464,30 @@ const projectContent = {
       boardKicker: "Project Dashboard",
       boardTitle: "Classification Evidence Board",
       visualTitle: "Evidence Map",
-      signals: ["Survey Data", "Balancing", "Classifiers", "Confusion Matrix"],
+      signals: ["Survey Data", "EDA", "Resampling", "Policy Factors"],
       chart: [58, 72, 86, 68, 94],
-      problem: "Predict disability status in a large-scale housing survey dataset while improving minority-class reliability.",
-      problemDetail: "The project focuses on a classification setting where standard accuracy can hide weak performance on the smaller class.",
-      methods: "Built and evaluated 36 machine learning pipeline combinations across four balancing methods and nine classifiers.",
-      evaluation: "Used recall, TPR, precision, F1-score, and confusion-matrix analysis to compare model behavior.",
-      value: "Improved minority-class prediction reliability with transparent model comparison evidence.",
+      problem: "Analyze a 10K-row housing survey dataset and predict target outcomes while addressing class imbalance.",
+      problemDetail: "The project used EDA to identify demographic, socioeconomic, and housing factors associated with target outcomes.",
+      methods: "Cleaned survey data, performed EDA, and benchmarked 36 classification pipelines across four resampling strategies and nine machine learning algorithms.",
+      evaluation: "Compared model behavior across class-imbalance settings and used visualizations and stakeholder-ready reporting to surface key trends.",
+      value: "Surfaced housing trends and risk factors that can support targeted policy and resource-allocation recommendations.",
       metrics: [
-        ["36", "Pipeline combinations"],
-        ["4", "Balancing methods"],
-        ["9", "Classifier families"]
+        ["10K", "Survey rows"],
+        ["36", "Classification pipelines"],
+        ["4 x 9", "Resampling strategies and algorithms"]
       ],
       workflow: [
-        "Cleaned survey data and prepared model-ready features.",
-        "Tested balancing strategies for imbalanced classification.",
-        "Benchmarked classifier families through repeatable pipelines.",
-        "Compared results with metrics that emphasize minority-class reliability."
+        "Cleaned and analyzed large-scale housing survey data.",
+        "Performed EDA to identify demographic, socioeconomic, and housing factors tied to target outcomes.",
+        "Built and benchmarked 36 classification pipelines across resampling strategies and machine learning algorithms.",
+        "Developed visualizations and stakeholder-ready reports for policy and resource-allocation recommendations."
       ],
       outcomes: [
-        "Structured machine learning experimentation.",
-        "Evaluation beyond headline accuracy.",
-        "Clear communication of model tradeoffs and reliability."
+        "End-to-end survey data cleaning, EDA, and modeling.",
+        "Class-imbalance handling through systematic pipeline benchmarking.",
+        "Translation of model evidence into decision-ready housing insights."
       ],
-      tags: ["Python", "scikit-learn", "Imbalanced Data", "36 Pipelines"]
+      tags: ["Python", "EDA", "Imbalanced Data", "36 Pipelines"]
     },
     database: {
       type: "Database Design",
@@ -506,30 +532,30 @@ const projectContent = {
       boardKicker: "Project Dashboard",
       boardTitle: "Rating Prediction Board",
       visualTitle: "Feature Signal Map",
-      signals: ["Reviews", "Ratings", "Text Features", "Model Compare"],
+      signals: ["Reviews", "Sentiment", "Engagement", "Model Compare"],
       chart: [70, 88, 76, 64, 82],
-      problem: "Predict high ratings from 18,182 recipe reviews using user behavior, metadata, and text-related features.",
-      problemDetail: "The project frames recipe review prediction as a practical classification task for identifying reviews likely to receive high ratings.",
-      methods: "Analyzed review data, engineered predictive features, and compared five machine learning models.",
-      evaluation: "Compared model performance with classification metrics and feature-driven review of predictive signals.",
-      value: "Connected behavioral and text-related signals with rating prediction for a practical recommendation-style use case.",
+      problem: "Classify recipe review ratings from 18K+ reviews using NLP, sentiment analysis, engagement signals, and recipe characteristics.",
+      problemDetail: "The project framed recipe reviews as a customer-sentiment and satisfaction modeling task.",
+      methods: "Applied NLP and sentiment analysis to 18K+ recipe reviews, engineered review-quality and sentiment features, and benchmarked five machine learning models.",
+      evaluation: "Compared rating-prediction performance across models and interpreted which sentiment and engagement features improved model behavior.",
+      value: "Translated model outputs into customer-behavior insights for recommendation optimization and user engagement strategy.",
       metrics: [
-        ["18,182", "Recipe reviews"],
+        ["18K+", "Recipe reviews"],
         ["5", "ML models compared"],
-        ["Text + metadata", "Feature inputs"]
+        ["NLP", "Sentiment and review-quality features"]
       ],
       workflow: [
-        "Cleaned review data and prepared the high-rating classification target.",
-        "Engineered user behavior, metadata, and text-related features.",
-        "Compared five machine learning models on the classification task.",
-        "Summarized which features and models best supported rating prediction."
+        "Extracted text-based features from recipe review content.",
+        "Built sentiment and review-quality features to quantify customer feedback trends.",
+        "Benchmarked five machine learning models for recipe rating prediction.",
+        "Identified review themes and recipe characteristics most strongly associated with high ratings."
       ],
       outcomes: [
-        "Applied classification to a real review dataset.",
-        "Feature engineering across behavioral and text-related signals.",
-        "Model comparison for recommendation-style analysis."
+        "NLP and sentiment analysis applied to customer review data.",
+        "Feature engineering across sentiment, engagement, and recipe characteristics.",
+        "Customer-behavior insights for recommendation and engagement strategy."
       ],
-      tags: ["Python", "18,182 Reviews", "Feature Engineering", "Model Comparison"]
+      tags: ["Python", "NLP", "18K+ Reviews", "Sentiment Analysis"]
     },
     stock: {
       type: "Prediction",
@@ -576,30 +602,30 @@ const projectContent = {
       boardKicker: "项目仪表盘",
       boardTitle: "分类证据面板",
       visualTitle: "证据地图",
-      signals: ["调查数据", "数据平衡", "分类器", "混淆矩阵"],
+      signals: ["调查数据", "EDA", "重采样", "政策因素"],
       chart: [58, 72, 86, 68, 94],
-      problem: "使用大规模住房调查数据预测 disability status，并提升 minority-class 预测可靠性。",
-      problemDetail: "这个项目关注分类任务中容易被整体 accuracy 掩盖的 minority-class 预测表现。",
-      methods: "构建并评估 4 种平衡方法和 9 个分类器组成的 36 种机器学习流程。",
-      evaluation: "Recall、TPR、precision、F1-score 和 confusion matrix 分析。",
-      value: "通过透明的模型比较证据提升 minority-class 预测可靠性。",
+      problem: "分析 10K 行住房调查数据，并在处理类别不平衡的同时预测目标结果。",
+      problemDetail: "这个项目通过 EDA 识别与目标结果相关的人口、社会经济和住房因素。",
+      methods: "清洗调查数据、执行 EDA，并在 4 种重采样策略和 9 种机器学习算法上比较 36 种分类 pipeline。",
+      evaluation: "比较类别不平衡场景下的模型表现，并用可视化和面向 stakeholders 的报告总结关键趋势。",
+      value: "提炼住房趋势和风险因素，为 targeted policy 与 resource allocation 建议提供数据支持。",
       metrics: [
-        ["36", "机器学习流程组合"],
-        ["4", "数据平衡方法"],
-        ["9", "分类器类别"]
+        ["10K", "调查数据行"],
+        ["36", "分类 pipeline"],
+        ["4 x 9", "重采样策略与算法"]
       ],
       workflow: [
-        "清洗调查数据，并准备可用于建模的特征。",
-        "测试用于 imbalanced classification 的数据平衡策略。",
-        "通过可复现的 pipeline 比较不同分类器。",
-        "用更关注 minority-class 的指标比较模型可靠性。"
+        "清洗并分析大规模住房调查数据。",
+        "通过 EDA 识别与目标结果相关的人口、社会经济和住房因素。",
+        "在重采样策略和机器学习算法组合上构建并比较 36 种分类 pipeline。",
+        "制作可视化和面向 stakeholders 的报告，支持 policy 与 resource allocation 建议。"
       ],
       outcomes: [
-        "结构化机器学习实验能力。",
-        "不只依赖 headline accuracy 的模型评估能力。",
-        "清晰表达模型取舍和可靠性的能力。"
+        "完整的数据清洗、EDA 和建模流程。",
+        "通过系统化 pipeline benchmarking 处理类别不平衡。",
+        "将模型证据转化为可支持决策的住房分析洞察。"
       ],
-      tags: ["Python", "scikit-learn", "Imbalanced Data", "36 Pipelines"]
+      tags: ["Python", "EDA", "Imbalanced Data", "36 Pipelines"]
     },
     database: {
       type: "数据库设计",
@@ -644,30 +670,30 @@ const projectContent = {
       boardKicker: "项目仪表盘",
       boardTitle: "评分预测面板",
       visualTitle: "特征信号地图",
-      signals: ["评论", "评分", "文本特征", "模型比较"],
+      signals: ["评论", "情感", "互动信号", "模型比较"],
       chart: [70, 88, 76, 64, 82],
-      problem: "基于 18,182 条 recipe reviews，使用用户行为、元数据和文本相关特征预测高评分。",
-      problemDetail: "这个项目把 recipe review prediction 设定为识别高评分评论的实用分类任务。",
-      methods: "分析评论数据、构建预测特征，并比较 5 个机器学习模型。",
-      evaluation: "分类指标、模型比较和特征工程效果分析。",
-      value: "将行为和文本相关信号连接到评分预测，形成推荐场景相关的分析案例。",
+      problem: "基于 18K+ 条 recipe reviews，使用 NLP、情感分析、互动信号和 recipe characteristics 进行评分分类。",
+      problemDetail: "这个项目把 recipe reviews 设定为 customer sentiment 和用户满意度建模任务。",
+      methods: "应用 NLP 与情感分析，构建 review-quality 和 sentiment features，并比较 5 个机器学习模型。",
+      evaluation: "比较不同模型的评分预测表现，并解释哪些情感与互动特征改善了模型效果。",
+      value: "将模型输出转化为 customer-behavior insights，用于 recommendation optimization 和 user engagement strategy。",
       metrics: [
-        ["18,182", "Recipe reviews"],
+        ["18K+", "Recipe reviews"],
         ["5", "机器学习模型"],
-        ["Text + metadata", "特征输入"]
+        ["NLP", "情感与评论质量特征"]
       ],
       workflow: [
-        "清洗 review 数据，并准备 high-rating 分类目标。",
-        "构建用户行为、元数据和文本相关特征。",
-        "比较 5 个机器学习模型在分类任务上的表现。",
-        "总结哪些特征和模型更能支持评分预测。"
+        "从 recipe review 文本中提取文本特征。",
+        "构建 sentiment 和 review-quality features，量化 customer feedback trends。",
+        "比较 5 个机器学习模型在 recipe rating prediction 上的表现。",
+        "识别与高评分最相关的 review themes 和 recipe characteristics。"
       ],
       outcomes: [
-        "将分类方法应用到真实 review 数据集。",
-        "结合行为和文本相关信号进行特征工程。",
-        "面向推荐场景的模型比较能力。"
+        "将 NLP 与情感分析应用到 customer review 数据。",
+        "结合 sentiment、engagement 和 recipe characteristics 进行特征工程。",
+        "形成面向 recommendation 和 engagement strategy 的用户行为洞察。"
       ],
-      tags: ["Python", "18,182 Reviews", "Feature Engineering", "Model Comparison"]
+      tags: ["Python", "NLP", "18K+ Reviews", "Sentiment Analysis"]
     },
     stock: {
       type: "预测",

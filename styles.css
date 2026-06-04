@@ -2734,9 +2734,34 @@ h3 {
   padding: 22px;
 }
 
+.experience-card {
+  display: grid;
+  gap: 16px;
+}
+
 .experience-card h2,
 .contact-card h2 {
   font-size: 24px;
+}
+
+.experience-list {
+  display: grid;
+  gap: 18px;
+}
+
+.experience-entry {
+  display: grid;
+  gap: 8px;
+}
+
+.experience-entry + .experience-entry {
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.experience-entry h3 {
+  font-size: 18px;
+  line-height: 1.2;
 }
 
 .company {
@@ -2746,8 +2771,8 @@ h3 {
 
 .experience-card ul {
   display: grid;
-  gap: 10px;
-  margin: 14px 0 0;
+  gap: 8px;
+  margin: 0;
   padding-left: 20px;
 }
 
