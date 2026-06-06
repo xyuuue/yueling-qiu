@@ -2788,6 +2788,18 @@ h3 {
   font-weight: 760;
 }
 
+.company-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+}
+
+.company-link:hover,
+.company-link:focus-visible {
+  color: var(--blue-dark);
+}
+
 .experience-card ul {
   display: grid;
   gap: 8px;
