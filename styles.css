@@ -196,39 +196,12 @@ button:focus-visible {
   text-decoration: none;
 }
 
-.brand-chart {
-  position: relative;
-  display: inline-grid;
-  grid-template-columns: repeat(4, 5px);
-  align-items: end;
-  gap: 3px;
-  width: 42px;
-  height: 30px;
+.brand-logo {
+  width: 52px;
+  height: 40px;
+  flex: 0 0 auto;
+  object-fit: contain;
 }
-
-.brand-chart::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 6px;
-  height: 2px;
-  background: var(--gradient-accent);
-  transform: rotate(-28deg);
-  transform-origin: left center;
-}
-
-.brand-chart span {
-  display: block;
-  width: 5px;
-  border-radius: 4px 4px 0 0;
-  background: var(--gradient-accent);
-}
-
-.brand-chart span:nth-child(1) { height: 8px; }
-.brand-chart span:nth-child(2) { height: 13px; }
-.brand-chart span:nth-child(3) { height: 19px; }
-.brand-chart span:nth-child(4) { height: 25px; }
 
 .site-nav {
   display: flex;
@@ -3213,6 +3186,11 @@ h3 {
 
   .brand {
     font-size: 16px;
+  }
+
+  .brand-logo {
+    width: 44px;
+    height: 34px;
   }
 
   .nav-toggle {
