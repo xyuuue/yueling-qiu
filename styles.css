@@ -1187,6 +1187,19 @@ h3 {
   max-width: 850px;
 }
 
+.apps-section .section-heading-row h2 {
+  max-width: 660px;
+}
+
+.apps-section .segmented-control {
+  flex: 0 0 auto;
+  flex-wrap: nowrap;
+}
+
+.apps-section .segmented-control button {
+  white-space: nowrap;
+}
+
 .text-link {
   color: var(--blue);
   font-weight: 800;
@@ -3388,6 +3401,16 @@ h3 {
   .segmented-control button {
     flex: 1 1 calc(50% - 8px);
     min-width: 0;
+    white-space: normal;
+  }
+
+  .apps-section .segmented-control {
+    flex-wrap: wrap;
+  }
+
+  .apps-section .segmented-control button {
+    flex: 0 0 calc(50% - 4px);
+    max-width: calc(50% - 4px);
     white-space: normal;
   }
 

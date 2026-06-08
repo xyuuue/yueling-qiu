@@ -886,6 +886,28 @@ const appContent = {
     link: "https://pastepaw.vercel.app/",
     linkText: "Visit PastePaw website"
     },
+    meowplanner: {
+    stack: "SwiftUI + SwiftData + WidgetKit",
+    title: "MeowPlanner",
+    icon: "assets/meowplanner-icon.png",
+    secondary: "assets/fufu-meowplanner-idle.png",
+    secondaryAlt: "FuFu sitting beside the MeowPlanner calendar",
+    positioning: "A FuFu-themed local planner for schedules, to-dos, course timetables, focus sessions, and Today widgets.",
+    bullets: [
+      "Month calendar, agenda views, grouped to-dos, and course timetable management.",
+      "Focus timer, local focus history, reminders, bilingual settings, and WidgetKit Today widget source.",
+      "Demonstrates SwiftUI product execution, local-first planning, and polished FuFu family branding."
+    ],
+    previewTitle: "Calendar Planner",
+    previewStatus: "Local-first",
+    previewItems: [
+      ["Month grid", "Keep schedules and to-dos visible by date."],
+      ["Course week", "Track semester weeks, rooms, teachers, and periods."],
+      ["Focus block", "Run one calm FuFu focus session at a time."]
+    ],
+    link: "https://meowplanner.vercel.app/",
+    linkText: "Visit MeowPlanner website"
+    },
     studysprout: {
     stack: "Upcoming app",
     title: "StudySprout",
@@ -953,6 +975,28 @@ const appContent = {
       ],
       link: "https://pastepaw.vercel.app/",
       linkText: "访问 PastePaw 网站"
+    },
+    meowplanner: {
+      stack: "SwiftUI + SwiftData + WidgetKit",
+      title: "MeowPlanner",
+      icon: "assets/meowplanner-icon.png",
+      secondary: "assets/fufu-meowplanner-idle.png",
+      secondaryAlt: "FuFu 坐在 MeowPlanner 日历旁边",
+      positioning: "一个 FuFu 主题的本地规划应用，用来管理日程、待办、课程表、专注记录和 Today widget。",
+      bullets: [
+        "支持月历、日程视图、分组待办和课程表管理。",
+        "包含专注计时、本地专注历史、提醒、双语设置和 WidgetKit Today widget 来源。",
+        "展示 SwiftUI 产品执行、本地优先规划和 FuFu 系列品牌打磨能力。"
+      ],
+      previewTitle: "日历规划器",
+      previewStatus: "本地优先",
+      previewItems: [
+        ["月历视图", "按日期查看日程和待办。"],
+        ["课程周", "管理学期周、教室、老师和上课节次。"],
+        ["专注块", "一次开启一个安静的 FuFu 专注 session。"]
+      ],
+      link: "https://meowplanner.vercel.app/",
+      linkText: "访问 MeowPlanner 网站"
     },
     studysprout: {
       stack: "Upcoming app",
