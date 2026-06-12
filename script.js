@@ -929,6 +929,30 @@ const appContent = {
     ],
     link: "",
     linkText: ""
+    },
+    breezy: {
+    stack: "WeChat Mini Program + WeChat Cloud",
+    title: "Breezy Travels",
+    icon: "assets/breezy-travels-icon.png?v=20260612-breezy-travels",
+    secondary: "assets/breezy-travels-banner.jpg?v=20260612-breezy-travels",
+    secondaryAlt: "Breezy Travels Mini Program travel banner",
+    secondaryVariant: "landscape",
+    previewClass: "app-preview--breezy",
+    positioning: "A WeChat Mini Program for recording collaborative trips, daily plans, photos, expenses, and shareable travel memories.",
+    bullets: [
+      "Built with WeChat Cloud for trip records, members, join requests, and user-specific travel data.",
+      "Supports photos, notes, multi-currency expense summaries, and same-currency AA split data.",
+      "Generates travel posters for sharing trip highlights from one Mini Program workflow."
+    ],
+    previewTitle: "Travel Journal",
+    previewStatus: "Mini Program",
+    previewItems: [
+      ["Trip timeline", "Routes, days, notes, and photos."],
+      ["Shared expenses", "Payers, members, currencies, and splits."],
+      ["Poster maker", "Highlights become a travel poster."]
+    ],
+    link: "https://github.com/xyuuue/Breezy-Travels",
+    linkText: "View Breezy Travels on GitHub"
     }
   },
   zh: {
@@ -1019,6 +1043,30 @@ const appContent = {
       ],
       link: "",
       linkText: ""
+    },
+    breezy: {
+      stack: "微信小程序 + 微信云开发",
+      title: "Breezy Travels",
+      icon: "assets/breezy-travels-icon.png?v=20260612-breezy-travels",
+      secondary: "assets/breezy-travels-banner.jpg?v=20260612-breezy-travels",
+      secondaryAlt: "Breezy Travels 微信小程序旅行横幅",
+      secondaryVariant: "landscape",
+      previewClass: "app-preview--breezy",
+      positioning: "一个微信小程序，用来记录多人协作旅行、每日行程、照片、费用和可分享的旅行回忆。",
+      bullets: [
+        "基于微信云开发管理行程、成员、加入申请和按用户隔离的旅行数据。",
+        "支持照片、备注、多币种费用汇总和同币种 AA 分摊基础数据。",
+        "可生成旅行海报，把旅途亮点从小程序里整理成可分享内容。"
+      ],
+      previewTitle: "旅行记录",
+      previewStatus: "Mini Program",
+      previewItems: [
+        ["行程时间线", "整理路线、每日安排、备注和照片。"],
+        ["多人费用", "记录付款人、成员、币种和分摊。"],
+        ["旅行海报", "把旅途亮点生成可分享海报。"]
+      ],
+      link: "https://github.com/xyuuue/Breezy-Travels",
+      linkText: "查看 Breezy Travels GitHub"
     }
   }
 };
@@ -1035,14 +1083,33 @@ const updateApp = (key) => {
     button.setAttribute("aria-selected", String(active));
   });
 
+  const preview = document.querySelector("[data-app-preview]");
+  const secondary = document.querySelector("[data-app-secondary]");
+
+  preview.className = "app-preview";
+  if (app.previewClass) {
+    preview.classList.add(app.previewClass);
+  }
+
   replaySwapAnimation(document.querySelector(".app-showcase"));
   document.querySelector("[data-app-stack]").textContent = app.stack;
   document.querySelector("[data-app-title]").textContent = app.title;
   document.querySelector("[data-app-positioning]").textContent = app.positioning;
   document.querySelector("[data-app-icon]").src = app.icon;
   document.querySelector("[data-app-icon]").alt = `${app.title} app icon`;
-  document.querySelector("[data-app-secondary]").src = app.secondary;
-  document.querySelector("[data-app-secondary]").alt = app.secondaryAlt;
+  secondary.className = "showcase-pet";
+  if (app.secondary) {
+    secondary.hidden = false;
+    secondary.src = app.secondary;
+    secondary.alt = app.secondaryAlt;
+    if (app.secondaryVariant) {
+      secondary.classList.add(`showcase-pet--${app.secondaryVariant}`);
+    }
+  } else {
+    secondary.hidden = true;
+    secondary.removeAttribute("src");
+    secondary.alt = "";
+  }
   document.querySelector("[data-app-bullets]").innerHTML = app.bullets.map((item) => `<li>${item}</li>`).join("");
   document.querySelector("[data-app-preview-title]").textContent = app.previewTitle;
   document.querySelector("[data-app-preview-status]").textContent = app.previewStatus;
