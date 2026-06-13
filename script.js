@@ -845,7 +845,7 @@ const appContent = {
     slacker: {
     stack: "SwiftUI + AppKit + Electron",
     title: "SlackerBuddy",
-    icon: "assets/slackerbuddy-app-icon.png",
+    icon: "assets/slackerbuddy-app-icon.png?v=20260613-slackerbuddy-icon",
     secondary: "assets/fufu-slackerbuddy-blink.webp?v=20260528-fufu-position",
     secondaryAlt: "FuFu blinking companion pose",
     positioning: "A desktop companion app that helps users rest, hydrate, and feel less alone while working.",
@@ -959,7 +959,7 @@ const appContent = {
     slacker: {
       stack: "SwiftUI + AppKit + Electron",
       title: "SlackerBuddy",
-      icon: "assets/slackerbuddy-app-icon.png",
+      icon: "assets/slackerbuddy-app-icon.png?v=20260613-slackerbuddy-icon",
       secondary: "assets/fufu-slackerbuddy-blink.webp?v=20260528-fufu-position",
       secondaryAlt: "FuFu 眨眼陪伴动作",
       positioning: "一个桌面陪伴应用，帮助用户休息、喝水，并在工作时减少孤独感。",
