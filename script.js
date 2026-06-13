@@ -889,7 +889,7 @@ const appContent = {
     meowplanner: {
     stack: "SwiftUI + SwiftData + WidgetKit",
     title: "MeowPlanner",
-    icon: "assets/meowplanner-icon.png",
+    icon: "assets/meowplanner-icon.png?v=20260613-meowplanner-icon",
     secondary: "assets/fufu-meowplanner-inspect.webp",
     secondaryAlt: "FuFu inspecting the MeowPlanner calendar",
     positioning: "A FuFu-themed local planner for schedules, to-dos, course timetables, focus sessions, and Today widgets.",
@@ -1003,7 +1003,7 @@ const appContent = {
     meowplanner: {
       stack: "SwiftUI + SwiftData + WidgetKit",
       title: "MeowPlanner",
-      icon: "assets/meowplanner-icon.png",
+      icon: "assets/meowplanner-icon.png?v=20260613-meowplanner-icon",
       secondary: "assets/fufu-meowplanner-inspect.webp",
       secondaryAlt: "FuFu 审视 MeowPlanner 日历",
       positioning: "一个 FuFu 主题的本地规划应用，用来管理日程、待办、课程表、专注记录和 Today widget。",
