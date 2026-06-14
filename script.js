@@ -1129,15 +1129,19 @@ const updateApp = (key) => {
     })
   );
 
+  const linkSlot = document.querySelector("[data-app-link-slot]");
   const link = document.querySelector("[data-app-link]");
+  const linkLabel = document.querySelector("[data-app-link-label]");
   if (app.link) {
-    link.hidden = false;
+    linkSlot.hidden = false;
     link.href = app.link;
-    link.textContent = app.linkText;
+    linkLabel.textContent = app.linkText;
+    link.setAttribute("aria-label", app.linkText);
   } else {
-    link.hidden = true;
+    linkSlot.hidden = true;
     link.removeAttribute("href");
-    link.textContent = "";
+    link.removeAttribute("aria-label");
+    linkLabel.textContent = "";
   }
 };
 
